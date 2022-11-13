@@ -1,5 +1,7 @@
 package com.flywhale.suanfa;
 
+import java.util.Locale;
+
 /**
  * 给出两个整数 a 和 b，请计算 a 和 b 的最大公约数，通过 System.out.println 语句输出。
  *
@@ -23,7 +25,10 @@ public class Main {
             }
         }
         System.out.println(max);
-
+        String str1 = "I love ";
+        String str2 = "China";
+        String str3 = str1 + " " + str2;
+        System.out.println(str3.toUpperCase(Locale.ROOT));
     }
 
 }
